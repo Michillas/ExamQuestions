@@ -1,0 +1,154 @@
+{
+  "pregunta": {
+    "1": {
+      "titulo": "¿Que factores de riesgo hay en condiciones medio ambientales?",
+      "posibles": [
+        "Carga física, mental y pantalla de visualización de datos",
+        "Riesgos físicos, químicos y biológicos",
+        "Organización del trabajo y características del trabajador",
+        "Rojo y amarillo son correctas"
+      ],
+      "correcta": "Riesgos físicos, químicos y biológicos"
+    },
+    "2": {
+      "titulo": "¿Qué ventajas tiene formar parte de un Comité de empresa?",
+      "posibles": [
+        "Tienen prioridad de permanencia en la empresa",
+        "Tienen mayor remuneración",
+        "Disponen de un número de horas sindicales",
+        "Rojo y amarillo son correctas"
+      ],
+      "correcta": "Rojo y amarillo son correctas"
+    },
+    "3": {
+      "titulo": "¿Cuál de los siguientes tipos de huelga no sería una huelga ilegal?",
+      "posibles": [
+        "Huelga política",
+        "Huelga que no sigue los procedimientos legales",
+        "Huelga novatoria",
+        "Huelga general"
+      ],
+      "correcta": "Huelga general"
+    },
+    "4": {
+      "titulo": "Indica cuál no es un requisito básico de un accidente laboral",
+      "posibles": [
+        "Trabajo por cuenta ajena",
+        "Relación de causalidad",
+        "Relaciones personales",
+        "Lesión corporal"
+      ],
+      "correcta": "Relaciones personales"
+    },
+    "5": {
+      "titulo": "Sobre el concepto de ergonomía, es...",
+      "posibles": [
+        "Adapta el trabajo a las condiciones fisiológicas y psicológicas",
+        "Previene la aparición de enfermedades",
+        "Previene daños psicológicos",
+        "Evita accidentes laborales"
+      ],
+      "correcta": "Adapta el trabajo a las condiciones fisiológicas y psicológicas"
+    },
+    "6": {
+      "titulo": "Durante el período de Huelga, los trabajadores perciben...",
+      "posibles": [
+        "El 20% de su salario",
+        "El salario base",
+        "Su salario con los descuentos de Seguridad Social e IRPF",
+        "No perciben ningún salario"
+      ],
+      "correcta": "No perciben ningún salario"
+    },
+    "7": {
+      "titulo": "La salud es:",
+      "posibles": [
+        "El estado de bienestar físico",
+        "Es el conjunto de actuaciones adoptadas en la empresa para mejorar la salud",
+        "Un estado de completo bienestar físico, mental y social",
+        "Un estado de éxtasis mental"
+      ],
+      "correcta": "Un estado de completo bienestar físico, mental y social"
+    },
+    "8": {
+      "titulo": "¿Cuáles son los factores de riesgo laboral?",
+      "posibles": [
+        "Condiciones de seguridad, ergonómicas, psicosociales y medioambientales",
+        "Condiciones psíquicas y químicas",
+        "Condiciones de bienestar y salud mental",
+        "Riesgo de caída y golpes"
+      ],
+      "correcta": "Condiciones de seguridad, ergonómicas, psicosociales y medioambientales"
+    },
+    "9": {
+      "titulo": "¿Qué es el cierre patronal?",
+      "posibles": [
+        "Cierre total de una empresa",
+        "Cierre temporal de la empresa",
+        "Cierre indefinido de una empresa",
+        "Cierre por parte de la Autoridad Laboral de la empresa"
+      ],
+      "correcta": "Cierre temporal de la empresa"
+    },
+    "10": {
+      "titulo": "¿A qué condiciones pertenecen los siguientes riesgos: vibración, ruido y temperatura?",
+      "posibles": [
+        "Condiciones ergonómicas",
+        "Condiciones de seguridad",
+        "Condiciones medioambientales",
+        "Condiciones psicosociales"
+      ],
+      "correcta": "Condiciones medioambientales"
+    },
+    "11": {
+      "titulo": "¿Cuántas personas como mínimo debe haber en una empresa para que exista un Comité de Empresa?",
+      "posibles": [
+        "45",
+        "50",
+        "55",
+        "60"
+      ],
+      "correcta": "50"
+    },
+    "12": {
+      "titulo": "Asociación permanente de personas que busca mejorar las condiciones de trabajo",
+      "posibles": [
+        "Comité de empresa",
+        "Delegado de personal",
+        "Sindicato",
+        "Representación unitaria"
+      ],
+      "correcta": "Sindicato"
+    },
+    "13": {
+      "titulo": "Identifica de qué tipo es la siguiente señal (Bordes rojos y fondo blanco, símbolo negro)",
+      "posibles": [
+        "Prohibición",
+        "Obligación",
+        "Advertencia",
+        "Salvamento/Socorro"
+      ],
+      "correcta": "Prohibición"
+    },
+    "14": {
+      "titulo": "A qué organismo hay que comunicar la denuncia de un CC",
+      "posibles": [
+        "Seguridad Social",
+        "Juzgado de lo social",
+        "SEPE",
+        "Autoridad Laboral"
+      ],
+      "correcta": "Autoridad Laboral"
+    },
+    "15": {
+      "titulo": "Carlos ha tenido un accidente mientras se desplazaba a ver a un cliente desde su oficina, qué tipo de accidente es",
+      "posibles": [
+        "Accidente in itínere",
+        "Accidente en misión",
+        "Accidente de desplazamiento",
+        "Enfermedad profesional"
+      ],
+      "correcta": "Accidente en misión"
+    }
+  }
+}
