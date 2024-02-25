@@ -2,18 +2,17 @@ package org.example;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import org.json.JSONString;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GestorExamen {
     private Examen examenActual;
-    private ArrayList<Examen> examenes = new ArrayList();
-    private GestorJson jsonLoader = new GestorJson();
+    private final ArrayList<Examen> examenes = new ArrayList<>();
+    private final GestorJson jsonLoader = new GestorJson();
     private final char[] abcde = {'A', 'B', 'C', 'D', 'E'};
-    private Scanner scanner = new Scanner(System.in);
-    private JSONObject preguntas = jsonLoader.getJsonObject().getJSONObject("pregunta");
+    private final Scanner scanner = new Scanner(System.in);
+    private final JSONObject preguntas = jsonLoader.getJsonObject().getJSONObject("pregunta");
     public GestorExamen() {
 
     }
@@ -44,27 +43,14 @@ public class GestorExamen {
                     eleccionCorrecta = j + 1;
                 }
             }
-            int eleccion;
-            switch(scanner.nextLine().toUpperCase()) {
-                case "A":
-                    eleccion = 1;
-                    break;
-                case "B":
-                    eleccion = 2;
-                    break;
-                case "C":
-                    eleccion = 3;
-                    break;
-                case "D":
-                    eleccion = 4;
-                    break;
-                case "E":
-                    eleccion = 5;
-                    break;
-                default:
-                    eleccion = 0;
-                    break;
-            }
+            int eleccion = switch (scanner.nextLine().toUpperCase()) {
+                case "A" -> 1;
+                case "B" -> 2;
+                case "C" -> 3;
+                case "D" -> 4;
+                case "E" -> 5;
+                default -> 0;
+            };
             if (eleccion == eleccionCorrecta) {
                 examenActual.setPreguntasCorrectas(examenActual.getPreguntasCorrectas() + 1);
             }
@@ -78,7 +64,7 @@ public class GestorExamen {
         } else {
             System.out.println("""
                 ┌───────────┬─────────────┬──────────┐
-                │  intento  │  preguntas  │   nota   │""");
+                │  Intento  │  Preguntas  │   Nota   │""");
             for(Examen examen : examenes) {
                 mostrarInformacionExamen(examen);
             }
@@ -89,7 +75,7 @@ public class GestorExamen {
     public void mostrarInformacionExamen(Examen examen) {
         String examenFormato = "│ %-9s │ %-11s │ %-8s │";
         System.out.println("├───────────┤─────────────┤──────────┤");
-        System.out.printf(examenFormato, examenActual.getIntento(), examenActual.getPreguntasCorrectas() + "/" + examenActual.getPreguntasTotales(), examenActual.getNota());
+        System.out.printf(examenFormato, examen.getIntento(), examen.getPreguntasCorrectas() + "/" + examen.getPreguntasTotales(), examen.getNota());
         System.out.println();
     }
 
