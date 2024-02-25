@@ -1,8 +1,8 @@
 package org.example;
 
 public class Examen {
-    private int intento;
-    private int preguntasTotales;
+    private final int intento;
+    private final int preguntasTotales;
     private int preguntasCorrectas;
     public Examen(int intento, int preguntasTotales) {
         this.intento = intento;
@@ -26,6 +26,6 @@ public class Examen {
     }
 
     public double getNota() {
-        return ((double) preguntasCorrectas/preguntasTotales) * 10;
+        return Math.round(((double) preguntasCorrectas/preguntasTotales) * 10);
     }
 }
