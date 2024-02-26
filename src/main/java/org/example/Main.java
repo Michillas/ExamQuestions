@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     // Slim shady you're based
-    private String menuString = """
+    private final String menuString = """
                 #--- ¿Que quieres hacer? ---#
                 1) Hacer el examen
                 2) Comprobar intentos

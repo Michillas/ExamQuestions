@@ -53,6 +53,8 @@ public class GestorExamen {
             };
             if (eleccion == eleccionCorrecta) {
                 examenActual.setPreguntasCorrectas(examenActual.getPreguntasCorrectas() + 1);
+            } else if (eleccion == 0) {
+                System.out.println("[X] - No has elegido una opción correcta, la respuesta es contada como incorrecta");
             }
         }
         System.out.println("Has tenido " + examenActual.getPreguntasCorrectas() + " preguntas correctas");
