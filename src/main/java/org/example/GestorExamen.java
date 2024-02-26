@@ -48,7 +48,6 @@ public class GestorExamen {
                 case "B" -> 2;
                 case "C" -> 3;
                 case "D" -> 4;
-                case "E" -> 5;
                 default -> 0;
             };
             if (eleccion == eleccionCorrecta) {
