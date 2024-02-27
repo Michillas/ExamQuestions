@@ -26,6 +26,6 @@ public class Examen {
     }
 
     public double getNota() {
-        return Math.round(((double) preguntasCorrectas/preguntasTotales) * 10);
+        return ((double) preguntasCorrectas/preguntasTotales) * 10;
     }
 }

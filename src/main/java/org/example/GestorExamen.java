@@ -76,7 +76,7 @@ public class GestorExamen {
     public void mostrarInformacionExamen(Examen examen) {
         String examenFormato = "│ %-9s │ %-11s │ %-8s │";
         System.out.println("├───────────┤─────────────┤──────────┤");
-        System.out.printf(examenFormato, examen.getIntento(), examen.getPreguntasCorrectas() + "/" + examen.getPreguntasTotales(), examen.getNota());
+        System.out.printf(examenFormato, examen.getIntento(), examen.getPreguntasCorrectas() + "/" + examen.getPreguntasTotales(), String.format("%.2f", examen.getNota()));
         System.out.println();
     }
 
