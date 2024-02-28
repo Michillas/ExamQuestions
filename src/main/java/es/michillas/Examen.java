@@ -1,4 +1,4 @@
-package org.example;
+package es.michillas;
 
 public class Examen {
     private final int intento;
