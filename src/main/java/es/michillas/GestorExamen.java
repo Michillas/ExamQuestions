@@ -33,7 +33,6 @@ public class GestorExamen {
                     break;
             }
         }
-        System.out.println("Has tenido " + examenActual.getPreguntasCorrectas() + " preguntas correctas");
     }
 
     public void preguntarTipoTest(int numero) {
