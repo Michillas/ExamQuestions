@@ -70,11 +70,8 @@ public class GestorExamen {
         String respuestaCorrecta = preguntaActual.getString("correcta");
         scanner.nextLine();
         System.out.println("""
-        La respuesta correcta es:
-        #---------------------#
-        """ + respuestaCorrecta + """
-        #---------------------#
-        """);
+        vvvvvvv RESPUESTA CORRECTA vvvvvvv
+        """ + respuestaCorrecta);
     }
 
     public void listarExamenes() {
