@@ -70,7 +70,12 @@ public class GestorExamen {
         System.out.println(titulo);
         String respuestaCorrecta = preguntaActual.getString("correcta");
         scanner.nextLine();
-        System.out.println("La respuesta correcta es: \n- " + respuestaCorrecta);
+        System.out.println("""
+        La respuesta correcta es:
+        #---------------------#
+        """ + respuestaCorrecta + """
+        #---------------------#
+        """);
     }
 
     public void listarExamenes() {
