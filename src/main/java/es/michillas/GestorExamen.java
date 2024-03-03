@@ -38,7 +38,6 @@ public class GestorExamen {
 
     public void preguntarTipoTest(int numero) {
         JSONObject preguntaActual = preguntas.getJSONObject(String.valueOf(numero));
-        System.out.println("#--- Pregunta Nº" + numero + " ---#");
         String titulo = preguntaActual.getString("titulo");
         JSONArray respuestas = preguntaActual.getJSONArray("posibles");
         System.out.println(titulo);
