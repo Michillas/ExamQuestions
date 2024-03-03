@@ -79,7 +79,7 @@ public class GestorExamen {
 
     public void listarExamenes() {
         if(examenes.isEmpty()) {
-            System.out.println("- NO HAY INTENTOS DE EXAMEN");
+            System.out.println("X - NO HAY INTENTOS DE EXAMEN");
         } else {
             System.out.println("""
                 ┌───────────┬─────────────┬──────────┐
