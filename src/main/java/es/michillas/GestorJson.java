@@ -8,31 +8,31 @@ import java.io.IOException;
 
 public class GestorJson {
 
+    // preguntas.json es tipo test, preguntas2.json tipo tarjeta.
     private File file = new File("preguntas.json");
     private String filePath = file.getAbsolutePath();
 
     private JSONObject jsonObject;
 
     public GestorJson() {
-        cargarContenidoJson();
-    }
-
-    public void cargarContenidoJson() {
-        String jsonString = "{}";
         try {
-            FileReader reader = new FileReader(filePath);
-            StringBuilder sb = new StringBuilder();
-            int ch;
-            while ((ch = reader.read()) != -1) {
-                sb.append((char) ch);
-            }
-            reader.close();
-            jsonString = sb.toString();
+            cargarContenidoJson();
         } catch (IOException e) {
             throw new RuntimeException(e);
-        } finally {
-            jsonObject = new JSONObject(jsonString);
         }
+    }
+
+    public void cargarContenidoJson() throws IOException {
+        String jsonString = "{}";
+        FileReader reader = new FileReader(filePath);
+        StringBuilder sb = new StringBuilder();
+        int ch;
+        while ((ch = reader.read()) != -1) {
+            sb.append((char) ch);
+        }
+        reader.close();
+        jsonString = sb.toString();
+        jsonObject = new JSONObject(jsonString);
     }
 
     public JSONObject getJsonObject() {

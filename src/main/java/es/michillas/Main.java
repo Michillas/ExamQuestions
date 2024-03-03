@@ -4,44 +4,58 @@ import java.util.Scanner;
 
 public class Main {
     // Slim shady you're based
+    Scanner scanner = new Scanner(System.in);
     private final String menuString = """
                 #--- ¿Que quieres hacer? ---#
                 1) Hacer el examen
                 2) Comprobar intentos
-                3) Salir
+                3) Cambiar tipo
+                4) Salir
                 """;
     private GestorExamen gestorExamen = new GestorExamen();
-    private static Main INSTANCE;
+    private static final Main INSTANCE = new Main();
     private Main() {
 
     }
 
     public static Main getInstance() {
-        if (INSTANCE == null) {
-            INSTANCE = new Main();
-        }
         return INSTANCE;
     }
 
     public static void main(String[] args){
-        Main.getInstance().llamarMenu();
+        Main.getInstance().llamarMenuPrincipal();
     }
 
-    public void llamarMenu() {
+    public void llamarMenuPrincipal() {
         System.out.println(menuString);
-        Scanner scanner = new Scanner(System.in);
-        int opcion = scanner.nextInt();
-        switch(opcion) {
+        switch(scanner.nextInt()) {
             case 1:
-                gestorExamen.empezarExamen();
-                this.llamarMenu();
-                break;
+                gestorExamen.crearNuevoExamen();
+                gestorExamen.mostrarPreguntas();
+                this.llamarMenuPrincipal();
             case 2:
                 gestorExamen.listarExamenes();
-                this.llamarMenu();
-                break;
+                this.llamarMenuPrincipal();
             case 3:
+                this.llamarMenuTipos();
+            case 4:
                 break;
+        }
+    }
+
+    public void llamarMenuTipos() {
+        System.out.println("""
+                #--- ¿Que tipo de examen quieres? ---#
+                1) Test
+                2) Tarjetas
+                """);
+        switch(scanner.nextInt()) {
+            case 1:
+                gestorExamen.cambiarTipo(1);
+                llamarMenuPrincipal();
+            case 2:
+                gestorExamen.cambiarTipo(2);
+                llamarMenuPrincipal();
         }
     }
 }

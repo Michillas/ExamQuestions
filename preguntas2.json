@@ -1,0 +1,256 @@
+{
+  "pregunta": {
+    "1": {
+      "titulo": "¿Se puede crear nuevo contenido con media query?",
+      "correcta": "No, el CSS no permite añadir contenidos, sólo cambiar su estilo."
+    },
+    "2": {
+      "titulo": "¿Se puede ocultar contenido con CSS?",
+      "correcta": "Sí, usando display:none; se oculta el contenido."
+    },
+    "3": {
+      "titulo": "Para que se vea un elemento web, ¿hay que modificar la propiedad display?",
+      "correcta": "Por defecto, no es necesario. Sólo si hemos puesto display:none; en alguna parte del código."
+    },
+    "4": {
+      "titulo": "¿Qué hace la función background-image?",
+      "correcta": "Pone una imagen de fondo."
+    },
+    "5": {
+      "titulo": "¿Qué ocurre si no pongo background-repeat:no-repeat;?",
+      "correcta": "La imagen se repite indefinidamente."
+    },
+    "6": {
+      "titulo": "¿Cómo hago para que una imagen ocupe todo el fondo?",
+      "correcta": "Background-size:cover;"
+    },
+    "7": {
+      "titulo": "¿Es posible cambiar la imagen de fondo con una media query?",
+      "correcta": "Sí, ya que el background-size es una propiedad CSS."
+    },
+    "8": {
+      "titulo": "Si deseo crear un contenedor flexible, ¿qué propiedad debo usar?",
+      "correcta": "Display:flex;"
+    },
+    "9": {
+      "titulo": "¿Dónde debo poner el display:flex;?",
+      "correcta": "En el código del contenedor que quiera hacer flexible."
+    },
+    "10": {
+      "titulo": "¿Cómo se colocan los div por defecto?",
+      "correcta": "Uno debajo de otro, formando una columna."
+    },
+    "11": {
+      "titulo": "¿Qué hace flex-direction:row;?",
+      "correcta": "Coloca los elementos internos en forma de fila."
+    },
+    "12": {
+      "titulo": "¿Qué hace la propiedad flex-direction:column?",
+      "correcta": "Coloca los elementos internos en forma de columna."
+    },
+    "13": {
+      "titulo": "Para crear una página web que se adapte al contenido de la pantalla, ¿es imprescindible usar media query?",
+      "correcta": "No, se puede usar flex-wrap."
+    },
+    "14": {
+      "titulo": "Si tenemos un contenedor con elementos en fila y lo hacemos más pequeño, ¿qué hace la propiedad flex-wrap?",
+      "correcta": "Ordena los elementos en varias filas para que todos quepan en la pantalla."
+    },
+    "15": {
+      "titulo": "Si tenemos un contenedor con flex-nowrap y hacemos la pantalla muy estrecha, ¿qué ocurre?",
+      "correcta": "Los elementos que hay dentro del contenedor se contraen, se ocultan y aparece una barra de desplazamiento horizontal."
+    },
+    "16": {
+      "titulo": "¿Cómo podemos controlar la posición horizontal de los elementos de un contenedor?",
+      "correcta": "Con la propiedad justify-content."
+    },
+    "17": {
+      "titulo": "¿Qué controla la propiedad justify-content?",
+      "correcta": "La posición horizontal de los elementos, y la separación horizontal entre las columnas."
+    },
+    "18": {
+      "titulo": "¿Cómo se posicionan los elementos en el contenedor?",
+      "correcta": "Center: centro;\nStart: inicio;\nEnd: final;\nStretch: ocupando toda la longitud del contenedor."
+    },
+    "19": {
+      "titulo": "¿Cuál es la diferencia entre space around y space between?",
+      "correcta": "Space-around centra los elementos y pone margen anterior y posterior a cada uno de ellos.\nSpace-between pone los elementos al inicio y pone un margen menor."
+    },
+    "20": {
+      "titulo": "¿Qué controla la propiedad align-item?",
+      "correcta": "La posición vertical de los elementos y el espacio entre las filas."
+    },
+    "21": {
+      "titulo": "¿Qué hace el atributo strech?",
+      "correcta": "Hace que el elemento se extienda por el contenedor."
+    },
+    "22": {
+      "titulo": "¿Qué hace el atributo align-item:baseline;?",
+      "correcta": "Alinea los elementos según la línea de base de la escritura."
+    },
+    "23": {
+      "titulo": "Las propiedades justify-content y align-content ¿permiten alinear a cada elemento de forma individual?",
+      "correcta": "No, afectan por igual a todos los elementos."
+    },
+    "24": {
+      "titulo": "¿Cómo podría centrar un elemento en su contenedor?",
+      "correcta": "Align-content:center;\nJustify-content:center;"
+    },
+    "25": {
+      "titulo": "¿Qué hace la sintaxis .clase>div {color:red;}?",
+      "correcta": "Todos los div que estén dentro de esta clase tendrán la letra de color rojo (si no aparece un selector de mayor prioridad)"
+    },
+    "26": {
+      "titulo": "¿Cómo haría la siguiente estructura?",
+      "correcta": "El contenedor rojo tendrá flex-direction:row; y el contenedor azul tendrá flex-direction:column;"
+    },
+    "27": {
+      "titulo": "¿Cómo pongo un elemento en la esquina superior derecha del contenedor?",
+      "correcta": "Justify-content:end; //Derecha.\nAlign-items: start; //Superior."
+    },
+    "28": {
+      "titulo": "¿Cuál es la principal diferencia entre flex-box y flex-item?",
+      "correcta": "Flex-box se aplica a un contenedor y cambia la posición de sus elementos hijos, más no las propiedades del propio contenedor. Todas las posiciones cambian de la misma forma, no se puede individualizar.\nFlex-item se aplica a cada elemento individual, y afecta a la posición de este elemento de forma específica."
+    },
+    "29": {
+      "titulo": "El hijo de un contenedor flexible:",
+      "correcta": "Es otro contenedor flexible."
+    },
+    "30": {
+      "titulo": "¿Qué hace la propiedad flex-order?",
+      "correcta": "Cambia el orden en el que aparecen los elementos."
+    },
+    "31": {
+      "titulo": "La propiedad flex-order ¿se pone en el elemento que deseamos ordenar, o en su contenedor padre?",
+      "correcta": "Se pone en el elemento que deseamos ordenar."
+    },
+    "32": {
+      "titulo": "¿Cómo puedo poner un código CSS individual para cada elemento?",
+      "correcta": "d) Todas las demás respuestas son correctas."
+    },
+    "33": {
+      "titulo": "Por defecto ¿qué hacen los elementos flexibles al reducir el ancho de pantalla?",
+      "correcta": "Reducen su tamaño para adaptarse al nuevo ancho."
+    },
+    "34": {
+      "titulo": "Por defecto, ¿qué hacen los elementos flexibles al aumentar el ancho de la pantalla?",
+      "correcta": "Aumentan su tamaño y rellenan el espacio disponible."
+    },
+    "35": {
+      "titulo": "¿Qué hacen los elementos flexibles si se les añade contenido?",
+      "correcta": "Se hacen más grandes para adaptarse al tamaño del contenido."
+    },
+    "36": {
+      "titulo": "¿Qué hace la propiedad flex-grow?",
+      "correcta": "Controla el tamaño de los elementos flexibles."
+    },
+    "37": {
+      "titulo": "¿Qué hace la propiedad flex-shrink?",
+      "correcta": "Cuando se reduce el tamaño de la pantalla, el elemento no se contrae o se contrae menos."
+    },
+    "38": {
+      "titulo": "¿Qué diferencia hay entre flex-grow, flex-shrink y usar un tamaño fijo en píxeles?",
+      "correcta": "Las propiedades flex-grow y flex-shrink mantienen al elemento como flexible."
+    },
+    "39": {
+      "titulo": "¿Qué hace la propiedad flex-basis?",
+      "correcta": "Controla la longitud inicial de un elemento flexible."
+    },
+    "40": {
+      "titulo": "¿Qué hace la propiedad align-self?",
+      "correcta": "El elemento afectado por esta propiedad podrá colocarse en distintas posiciones."
+    },
+    "41": {
+      "titulo": "¿Cuál es la diferencia entre align-self y align-item?",
+      "correcta": "Align-self se aplica a un elemento y controla la posición de ese elemento."
+    },
+    "42": {
+      "titulo": "Si uso align-self con un elemento que está dentro de una fila ¿cómo puedo alinearle?",
+      "correcta": "Arriba, abajo, en el centro u ocupando toda la dimensión vertical."
+    },
+    "43": {
+      "titulo": "Si uso align-self con elementos que están en columna ¿cómo puedo alinearlos?",
+      "correcta": "A la derecha, a la izquierda, en el centro u ocupando todo el ancho de la columna."
+    },
+    "44": {
+      "titulo": "¿Qué hace la propiedad grid-layout?",
+      "correcta": "Colocar los elementos en forma de cuadrícula, con filas y columnas."
+    },
+    "45": {
+      "titulo": "En el código ¿dónde se pone la propiedad grid-layout?",
+      "correcta": "En el elemento padre o contenedor."
+    },
+    "46": {
+      "titulo": "¿Cómo hago que un grid-layout tenga 3 columnas?",
+      "correcta": "Grid-template-column:auto auto auto;"
+    },
+    "47": {
+      "titulo": "¿Qué controla la propiedad gap?",
+      "correcta": "El espacio entre los elementos de cuadrícula en un grid-layout."
+    },
+    "48": {
+      "titulo": "En un grid-layout, ¿cómo cambio el espacio entre columnas?",
+      "correcta": "Con column-gap"
+    },
+    "49": {
+      "titulo": "En un grid-layout, ¿todas las columnas son del mismo tipo?",
+      "correcta": "No, pueden tener tamaños diferentes."
+    },
+    "50": {
+      "titulo": "En un grid-layout, al poner columnas, ¿qué diferencia hay entre usar auto y poner una medida?",
+      "correcta": "Si se les pone auto son todas iguales y de un tamaño flexible.\nSi se pone un número en píxeles tendrán un tamaño fijo, no flexible.\nTambién podemos usar porcentajes. Entonces tendrán tamaños cambiantes, y podrán ser diferentes."
+    },
+    "51": {
+      "titulo": "El justify-content permite definir la separación entre columnas:",
+      "correcta": "space-evenly: poco separadas.\nSpace-around: separación media.\nSpace-between: muy separadas."
+    },
+    "52": {
+      "titulo": "La propiedad align-content permite definir la separación entre filas. ¿Qué debo hacer para que se note este efecto?",
+      "correcta": "a) Poner un height grande."
+    },
+    "53": {
+      "titulo": "¿Qué permite hacer la propiedad grid item?",
+      "correcta": "d) Todas las anteriores."
+    },
+    "54": {
+      "titulo": "¿A qué elemento se aplica la propiedad grid-item?",
+      "correcta": "b) A la celda que deseamos modificar."
+    },
+    "55": {
+      "titulo": "Si decimos que una celda tendrá un grid-column:1/3 ¿cuál será su ancho de columna?",
+      "correcta": "2 celdas."
+    },
+    "56": {
+      "titulo": "¿Qué hace el grid-area?",
+      "correcta": "Combina las propiedades grid-row y grid-column."
+    },
+    "57": {
+      "titulo": "¿Se puede usar la propiedad span en un grid?",
+      "correcta": "Sí, define el largo y el ancho de la celda."
+    },
+    "58": {
+      "titulo": "¿Qué se considera multimedia?",
+      "correcta": "d) Todas las anteriores, y más."
+    },
+    "59": {
+      "titulo": "¿Para qué sirve el atributo controls?",
+      "correcta": "Para poner controles: reproducir, pausar y reanudar la reproducción de un vídeo o de un audio."
+    },
+    "60": {
+      "titulo": "Si en una etiqueta de vídeo ponemos varios source ¿qué ocurre?",
+      "correcta": "a) Intenta reproducir el primer archivo. Si no está disponible, intenta reproducir el siguiente."
+    },
+    "61": {
+      "titulo": "¿Qué es el autoplay?",
+      "correcta": "Hace que el vídeo se reproduzca automáticamente al abrir la página. Es una mala opción."
+    },
+    "62": {
+      "titulo": "¿Es necesario poner la extensión del archivo en la ruta del src?",
+      "correcta": "Sí."
+    },
+    "63": {
+      "titulo": "Si no especificamos el width y el height de un vídeo, ¿qué ocurre?",
+      "correcta": "Toma las dimensiones que especifique el archivo."
+    }
+  }
+}
